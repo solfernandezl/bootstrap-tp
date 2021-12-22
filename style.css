@@ -7,6 +7,14 @@ body{
     background-color: rgb(223, 236, 255);
     font-family: 'Courier New', Courier, monospace;
 }
+p{
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    color: black;
+    width: 80%;
+    margin-bottom: 10px;
+}
 h1{
     margin: 20px;
     font-size: 50px;
@@ -20,14 +28,16 @@ h1{
 }
 .menu:hover{
     text-decoration: underline;
-
 }
 .carousel {
     margin: auto;
     display: flex;
     height: auto;
-    width: 400px; 
+    width: 500px; 
     justify-content: center;
+}
+.carousel:hover{
+    text-decoration: none;
 }
 .formulario{
     margin: auto;
